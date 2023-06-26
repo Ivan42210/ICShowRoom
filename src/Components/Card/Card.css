@@ -1,0 +1,66 @@
+.card{
+max-width: 250px;
+height: 350px;
+position: relative;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.card-link{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    color: black;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-thumbnail{
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+}
+
+.card-body{
+    position: relative;
+    padding: 11px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-title{
+    color: #000;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.card-author{
+    position: absolute;
+    left: 13px;
+    bottom: 13px;
+}
+
+.card-date{
+    position: absolute;
+    left: 13px;
+    bottom: 32px;
+}
+
+.card-author-pic{
+    position: absolute;
+    right: 13px;
+    bottom: 13px;
+}
+
+
+
+
+
+
+
+
