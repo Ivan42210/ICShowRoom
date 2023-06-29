@@ -6,7 +6,8 @@ export const soberDatas = [
         description: "Short description about the topic to make the viewer wanting to click",
         author: "Author",
         authorPic: "src/Templates/sober/public/author-pic.png",
-        date: "21/12/2022"
+        date: "21/12/2022",
+        category: 'Technology'
     },
     {
         id: 1,
@@ -15,7 +16,8 @@ export const soberDatas = [
         description: "Short description about the topic to make the viewer wanting to click",
         author: "Author",
         authorPic: "src/Templates/sober/public/author-pic.png",
-        date: "21/12/2022"
+        date: "21/12/2022",
+        category: 'Book'
     },
     {
         id: 2,
@@ -24,7 +26,8 @@ export const soberDatas = [
         description: "Short description about the topic to make the viewer wanting to click",
         author: "Author",
         authorPic: "src/Templates/sober/public/author-pic.png",
-        date: "21/12/2022"
+        date: "21/12/2022",
+        category: 'Movie'
     },
     {
         id: 3,
@@ -33,7 +36,8 @@ export const soberDatas = [
         description: "Short description about the topic to make the viewer wanting to click",
         author: "Author",
         authorPic: "src/Templates/sober/public/author-pic.png",
-        date: "21/12/2022"
+        date: "21/12/2022",
+        category: 'Book'
     },
     {
         id: 4,
@@ -42,7 +46,8 @@ export const soberDatas = [
         description: "Short description about the topic to make the viewer wanting to click",
         author: "Author",
         authorPic: "src/Templates/sober/public/author-pic.png",
-        date: "21/12/2022"
+        date: "21/12/2022",
+        category: 'Technology'
     },
     {
         id: 5,
@@ -51,6 +56,7 @@ export const soberDatas = [
         description: "Short description about the topic to make the viewer wanting to click",
         author: "Author",
         authorPic: "src/Templates/sober/public/author-pic.png",
-        date: "21/12/2022"
+        date: "21/12/2022",
+        category: 'Movie'
     }
 ]

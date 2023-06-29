@@ -18,7 +18,7 @@ import CardSection from 'card-section';
   customStyle={{ backgroundColor: 'red', color: 'white' }}
   colNumber={4}
   gap="30px"
-  defaultStyle={true}
+  defaultStyle={false}
   responsiveCols={3}
 >
   // Card content goes here...

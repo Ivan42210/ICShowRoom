@@ -14,7 +14,7 @@ const DEFAULT_CLASS_AUTHOR_PIC = 'card-author-pic';
 
 function Card({ link, id, title, thumbnail, description, author, date, authorPic, classArticle = DEFAULT_CLASS_ARTICLE, classLink = DEFAULT_CLASS_LINK, classImg = DEFAULT_CLASS_IMG, classBody = DEFAULT_CLASS_BODY, classTitle = DEFAULT_CLASS_TITLE, classDescription = DEFAULT_CLASS_DESCRIPTION, classDate = DEFAULT_CLASS_DATE, classAuthor = DEFAULT_CLASS_AUTHOR, classAuthorPic = DEFAULT_CLASS_AUTHOR_PIC }) {
   return (
-    <article className={classArticle}>
+    <article key={id} className={classArticle}>
       <NavLink to={`${link}/${id}`} className={classLink}>
         <img src={thumbnail} alt="" className={classImg}/>
         <section className={classBody}>

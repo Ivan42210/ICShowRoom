@@ -29,7 +29,7 @@ export default function CardSection({ customClassSection,customStyle, colNumber 
 
   const defaultClass = `mbi-grid-gap`;
   const defaultMediaQuery = `
-  @media (min-width: 601px) and (max-width: 767px) {
+  @media (max-width: 600px) {
     .mbi-grid-gap {
       gap: ${gap};
     }
@@ -50,7 +50,7 @@ export default function CardSection({ customClassSection,customStyle, colNumber 
     @media (min-width: 992px) and (max-width: 1199px) {
       .mbi-grid-gap {
         gap: ${gap};
-        grid-template-columns: repeat(${colNumber > 3 ? 3 : (responsiveCols ? responsiveCols : 3)}, 1fr);
+        grid-template-columns: repeat(${colNumber >= 3 ? 3 : (responsiveCols ? responsiveCols : 3)}, 1fr);
       }
     }
     @media (min-width: 1200px) {
